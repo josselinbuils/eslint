@@ -1,5 +1,5 @@
 {
-  "name": "@josselinbuils/eslint",
+  "name": "@josselinbuils/eslint-config",
   "version": "0.1.0",
   "description": "My own eslint rules.",
   "main": ".eslintrc.js",
