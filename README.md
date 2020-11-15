@@ -7,3 +7,13 @@ My own eslint rules.
 ```bash
 yarn add -D @josselinbuils/eslint
 ```
+
+## Usage
+
+```js
+// .eslintrc.js
+
+module.exports = {
+  extends: '@josselinbuils/eslint-config',
+};
+```
