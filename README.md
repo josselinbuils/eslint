@@ -5,7 +5,7 @@ My own eslint rules.
 ## Install
 
 ```bash
-yarn add -D @josselinbuils/eslint
+yarn add -D @josselinbuils/eslint-config
 ```
 
 ## Usage
