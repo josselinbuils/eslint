@@ -1,6 +1,6 @@
 {
   "name": "@josselinbuils/eslint-config-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My own eslint rules for TypeScript projects.",
   "main": ".eslintrc.js",
   "repository": "https://github.com/josselinbuils/eslint-config-typescript",
