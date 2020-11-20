@@ -1,11 +1,11 @@
-# eslint
+# eslint-config-typescript
 
-My own eslint rules.
+My own eslint rules for TypeScript projects.
 
 ## Install
 
 ```bash
-yarn add -D @josselinbuils/eslint-config
+yarn add -D @josselinbuils/eslint-config-typescript
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ yarn add -D @josselinbuils/eslint-config
 // .eslintrc.js
 
 module.exports = {
-  extends: '@josselinbuils/eslint-config',
+  extends: '@josselinbuils/eslint-config-typescript',
 };
 ```

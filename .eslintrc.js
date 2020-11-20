@@ -1,11 +1,9 @@
 module.exports = {
   extends: [
-    'airbnb',
-    'airbnb/hooks',
+    'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'prettier',
-    'prettier/react',
     'prettier/@typescript-eslint',
   ],
   env: {
@@ -15,7 +13,7 @@ module.exports = {
   },
   ignorePatterns: ['**/*.d.ts'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react', 'jsx-a11y', 'import', 'prettier', '@typescript-eslint'],
+  plugins: ['import', 'prettier', '@typescript-eslint'],
   root: true,
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
@@ -39,8 +37,8 @@ module.exports = {
       'error',
       'ignorePackages',
       {
+        js: 'never',
         ts: 'never',
-        tsx: 'never',
       },
     ],
     'import/prefer-default-export': 'off',
@@ -54,13 +52,7 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
-    'prefer-destructuring': ['error', { object: true, array: false }],
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
-    'react/jsx-props-no-spreading': 'off',
-    'react/no-danger': 'off',
-    'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/sort-comp': 'off', // Does not manage arrow methods
+    'prefer-destructuring': ['error', { object: true, array: false }]
   },
   settings: {
     'import/resolver': {
