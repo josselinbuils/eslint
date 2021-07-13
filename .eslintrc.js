@@ -12,7 +12,7 @@ module.exports = {
   },
   ignorePatterns: ['**/*.d.ts'],
   parser: '@typescript-eslint/parser',
-  plugins: ['import', 'prettier', '@typescript-eslint'],
+  plugins: ['import', '@typescript-eslint'],
   root: true,
   rules: {
     '@typescript-eslint/ban-ts-comment': 'off',
