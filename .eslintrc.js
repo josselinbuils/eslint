@@ -4,7 +4,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'prettier',
-    'prettier/@typescript-eslint',
   ],
   env: {
     browser: true,
@@ -51,7 +50,7 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-shadow': 'off',
     'no-use-before-define': 'off',
-    'prefer-destructuring': ['error', { object: true, array: false }]
+    'prefer-destructuring': ['error', { object: true, array: false }],
   },
   settings: {
     'import/resolver': {
