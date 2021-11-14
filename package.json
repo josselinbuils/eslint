@@ -1,6 +1,6 @@
 {
   "name": "@josselinbuils/eslint-config-typescript",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "My own eslint rules for TypeScript projects.",
   "main": ".eslintrc.js",
   "repository": "https://github.com/josselinbuils/eslint-config-typescript",
@@ -9,6 +9,9 @@
   "scripts": {
     "lint": "eslint .eslintrc.js"
   },
+  "files": [
+    ".eslintrc.js"
+  ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "5",
     "@typescript-eslint/parser": "5",
